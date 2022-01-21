@@ -99,7 +99,7 @@
 						>작성자</option>
 					</select>
 					<input type="text" name="searchValue"
-					<%if(searchValue != null && !searchValue.equals("") && !searchValue.equals("null")) out.print("value='"+searchValue+"'"); %>>
+					<%if(searchValue != null && !searchValue.equals("") && !searchValue.equals("null")) out.print("value='"+searchValue+"'"); %>>					
 					<input type="submit" value="검색">
 				</form>
 			</div>
