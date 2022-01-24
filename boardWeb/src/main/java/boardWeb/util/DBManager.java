@@ -33,7 +33,7 @@ public class DBManager {
 		}
 	}
 		
-		public static void close(PreparedStatement psmt, Connection conn, ResultSet rs) {
+	public static void close(PreparedStatement psmt, Connection conn, ResultSet rs) {
 		try {
 			if(psmt != null) psmt.close();
 			if(conn != null) conn.close();
